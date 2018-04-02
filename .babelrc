@@ -1,0 +1,22 @@
+{
+  	"plugins": [
+  		"transform-decorators-legacy"
+  	],
+    "presets": [
+        ["es2015", {"loose": true, "module": false}],
+        ["react"],
+        ["stage-2"]
+    ],
+    "env": {
+	    "node": {
+	        "plugins": [
+	            "transform-decorators-legacy",
+	            "transform-runtime"
+	        ],
+	        "presets": [
+	            ["es2015", {"loose": true}],
+	            ["react"]
+	        ]
+	    }
+	}
+}
